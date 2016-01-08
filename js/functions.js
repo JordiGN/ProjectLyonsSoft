@@ -1,26 +1,3 @@
-
-
-// Menu 
-$(document).ready(function(){
-
- $(".col-md-2 i").on( "click", function() {
-  var target = $(this).attr("data-parent");
-  
-  if (target == 12){
-     $("#config").removeClass("animated zoomOut");
-     $("#config").fadeIn(500);
-  }
-  else if (target == 10){
-     $("#client").removeClass("animated zoomOut");
-     $("#client").fadeIn(500);
-  }else{
-    alert("Opcion sin asignación");
-  }
-
-
-
- });
-});
 // Fecha
 var datetime = null,date = null;
 var update = function () {
@@ -40,7 +17,7 @@ $("a.minimize-window").on( "click", function() {
   var target = $(this).attr("data-target");
   var title = $(target).find(".panel-heading").text();
   $(target).addClass("animated zoomOutDown");
-  $('<a class="active-window animated flipInY" data-target="'+target+'"><i class="fa fa-cube"></i>'+title+'</a>').appendTo("#app-active");    
+  $('<a class="active-window animated flipInY" data-target="'+target+'"><i class="fa fa-cube"></i>'+title+'</a>').appendTo("#app-active");
 
 $("a.active-window").on( "click", function(event) {
   event.preventDefault();
@@ -63,7 +40,7 @@ $(".wallpapers a").on( "click", function() {
   var target = $(this).attr("data-id");
   var bodytag = $("body");
   var bodywall = bodytag.attr('class');
-    
+
     if (target == 1){
       bodytag.removeClass(bodywall);
       bodytag.addClass("wall-1");
@@ -155,24 +132,3 @@ $(".panel-heading").mouseup(function() {
 
 
 });
-
-$(document).ready(function(){
-      var i=1;
-     $("#add_row").click(function(){
-      $('#addr'+i).html("<td>"+ (i+1) +"</td><td><input name='name"+i+"' type='text' placeholder='Name' class='form-control input-md'  /> </td><td><input  name='mail"+i+"' type='text' placeholder='Mail'  class='form-control input-md'></td><td><input  name='mobile"+i+"' type='text' placeholder='Mobile'  class='form-control input-md'></td>");
-
-      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
-      i++; 
-  });
-     $("#delete_row").click(function(){
-         if(i>1){
-         $("#addr"+(i-1)).html('');
-         i--;
-         }
-     });
-
-});
-
-
-
-

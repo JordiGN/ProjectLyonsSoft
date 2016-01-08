@@ -12,62 +12,50 @@
             <table id="mMateriales">
             <tr>
                 <td class="app">
-                    <i class="fa fa-gift fa-5x"></i>
-                    <p><a href="index.php/welcome/matProductos">Products</a></p>
+                    <p><a href="index.php/welcome/matProductos"><i class="fa fa-gift fa-4x"></i><br>Products</a></p>
                 </td>
                 <td class="app">
-                    <i  class="fa fa-truck fa-5x"></i>
-                    <p><a href="index.php/welcome/matProveedores">Providers</a></p>
+                    <p><a href="index.php/welcome/matProveedores"><i class="fa fa-truck fa-4x"></i><br>Providers</a></p>
                 </td>
                 <td class="app">
-                    <i  class="fa fa-fw fa-bank fa-5x"></i>
-                    <p><a href="index.php/welcome/matAlmacenes">Stores</a></p>
+                    <p><a href="index.php/welcome/matAlmacenes"><i class="fa fa-fw fa-bank fa-4x"></i><br>Stores</a></p>
                 </td>
                 <td class="app">
-                    <i class="fa fa-arrows-alt fa-4x"></i>
-                    <p><a href="index.php/welcome/matTallas">Sizes</a></p>
+                    <p><a href="index.php/welcome/matTallas"><i class="fa fa-arrows-alt fa-4x"></i><br>Sizes</a></p>
                 </td>
             </tr>
             <tr>
                 <td class="app">
-                    <i  class="fa fa-list-alt fa-5x"></i>
-                    <p><a href="index.php/welcome/matUnidadesdeMedida">Measurements Units</a></p>
+                    <p><a href="index.php/welcome/matUnidadesdeMedida"><i class="fa fa-list-alt fa-4x"></i><br>Measurements Units</a></p>
                 </td>
                 <td class="app">
-                    <i  i class="fa fa-usd fa-5x"></i>
-                    <p><a href="">Store Buys</a></p>
+                    <p><a href=""><i class="fa fa-usd fa-4x"></i><br>Store Buys</a></p>
                 </td>
                 <td class="app">
-                    <i  class="fa fa-search fa-5x"></i>
-                    <p><a href="">Buys Consult</a></p>
+                    <p><a href=""><i class="fa fa-search fa-4x"></i><br>Buys Consult</a></p>
                 </td>
                 <td class="app">
-                    <i  class="fa fa-barcode fa-5x"></i>
-                    <p><a href="">Stock Inquiry</a></p>
+                    <p><a href=""><i class="fa fa-barcode fa-4x"></i><br>Stock Inquiry</a></p>
                 </td>
             </tr>
             <tr>
                 <td class="app">
-                    <i  class="fa fa-tasks fa-5x"></i>
-                    <p><a href="">Debts to pay</a></p>
+                    <p><a href=""><i class="fa fa-tasks fa-4x"></i><br>Debts to pay</a></p>
                 </td>
                 <td class="app">
-                    <i class="fa fa-money fa-5x"></i>
-                    <p><a href="">Banks</a></p>
+                    <p><a href=""><i class="fa fa-money fa-4x"></i><br>Banks</a></p>
                 </td>
 
                 <td class="app">
-                    <i class="fa fa-exchange fa-5x"></i>
-                    <p><a href="">Store movements</a></p>
+                    <p><a href=""><i class="fa fa-exchange fa-4x"></i><br>Store movements</a></p>
                 </td>
                 <td class="app">
-                    <i class="fa fa-list-ul fa-5x"></i>
-                    <p><a href="">Inventary</a></p>
+                    <p><a href=""><i class="fa fa-list-ul fa-4x"></i><br>Inventary</a></p>
                 </td>
             </tr>
             <tr>
                 <td class="app">
-                    <i class="fa fa-file-text fa-5x"></i>
+                    <i class="fa fa-file-text fa-4x"></i><br>
                     <p><a href="">Movement report (Not Buys)</a></p>
                 </td>
                 <td class="app"></td>
